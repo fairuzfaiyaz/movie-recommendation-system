@@ -16,9 +16,9 @@ Recommends movies based on their ratings and popularity.
 
 Uses a weighted rating formula to balance average ratings with the number of user ratings:
 
-\[
+$$
 WR = \frac{v}{v+m}R + \frac{m}{v+m}C
-\]
+$$
 
 Where:
 
